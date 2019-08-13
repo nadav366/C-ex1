@@ -1,0 +1,27 @@
+c_ex1
+nadav366
+205457534
+######
+
+Software structure-
+I divided the realization so that the main function activates, by steps, the functions that handle
+ only a certain part, and finally some auxiliary functions for specific tasks.
+The steps are-
+- Receiving and testing an array from the user.
+- Getting the number of convolutions.
+- Centering
+- Normalization
+- Making the convolution
+- Histogram printing
+Auxiliary Functions-
+- Convolution parameterization
+- Convert string to number
+
+Exercise Details-
+- All arrays are configured and initialized in the main function to make it easier to run different
+ functions on them.
+- Because all numbers are invalid with no chips I chose about -1 to mark an invalid return value.
+- The conjunction works at run time of O (n ^ 2) because for each place t there is a run on all
+  possible m's.
+
+
